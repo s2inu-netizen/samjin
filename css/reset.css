@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+html {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+address, em {
+  font-style: normal;
+}
+
+caption , legend {
+  display: none;
+}
+
+select, input, fieldset, button {
+  border: 0;
+  outline: none;
+  vertical-align: top;
+}
+
+img {
+  vertical-align: top;
+  border: 0;
+}

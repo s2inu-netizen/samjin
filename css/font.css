@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/* 구글 웹폰트에서 api를 활용하여 서체를 설치해서 사용
+
+직접 폰트파일을 연결해서 사용
+먼저 웹폰트로 변환
+.ttf 인 기본 서체 글꼴 파일은 ->.woff 로 변환 후
+연결해서 사용 */
+@font-face  {
+  font-family: "pretendard"; /* 사용할 이름 정의 */
+  src: url(../font/Pretendard-Thin.woff) format("woff");
+  /* 폰트파일 위치 */
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face  {
+  font-family: "pretendard";
+  src: url(../font/Pretendard-ExtraLight.woff) format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face  {
+  font-family: "pretendard";
+  src: url(../font/Pretendard-Light.woff) format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face  {
+  font-family: "pretendard";
+  src: url(../font/Pretendard-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face  {
+  font-family: "pretendard";
+  src: url(../font/Pretendard-Medium.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face  {
+  font-family: "pretendard";
+  src: url(../font/Pretendard-SemiBold.woff) format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face  {
+  font-family: "pretendard";
+  src: url(../font/Pretendard-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face  {
+  font-family: "pretendard";
+  src: url(../font/Pretendard-ExtraBold.woff) format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face  {
+  font-family: "pretendard";
+  src: url(../font/Pretendard-Bold.woff) format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face  {
+  font-family: "Times New Roman";
+  src: url("../font/TimesNewerRoman-Regular.woff") 
+  format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face  {
+  font-family: "Mont"; /* 몬트헤비 */
+  src: url(../font/Mont-Heavy.woff) format("woff");
+  /* 폰트파일 위치 */
+  font-weight: 400;
+  font-style: normal;
+}
